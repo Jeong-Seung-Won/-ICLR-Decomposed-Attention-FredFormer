@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from torch.amp import GradScaler, autocast
 from config import MODEL_ZOO, CFG_REGISTRY     
-from Foundation_Model_utils import (                 
+from utils import (                 
     build_train_loader, build_val_loader, build_test_loader,
     train_epoch, eval_epoch, eval_epoch_denorm
 )

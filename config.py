@@ -1,13 +1,7 @@
 from types import SimpleNamespace
+from DAF import Ours_TT
 
 __all__ = ["MODEL_ZOO", "CFG_REGISTRY"]
-
-from Foundation_Model_baseline import GRUForecast, LSTMForecast, DLinear
-from Foundation_Model_ours_fredformer_based import FredFormer_ours
-from Foundation_Model_Fredformer import FredFormer
-from Foundation_Model_SparseTSF import SparseTSF
-from Foundation_Model_ours_tensor_train import Ours_TT
-from Foundation_Model_ours_cp import Ours_CP
 
 MODEL_ZOO = {
     "ours_tt":               Ours_TT
